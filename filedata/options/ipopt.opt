@@ -1,11 +1,14 @@
 #-------------------------------------------------------------------------------
 # Settings for IPOPT
+#
+# See https://www.coin-or.org/Ipopt/documentation/node35.html
 #-------------------------------------------------------------------------------
 
 #--- C.1 Output ----------------------------------------------------------------
+#print_options_documentation           yes
 print_user_options                    yes                # d=no
 print_level                           5                    # d=1
-
+ 
 #--- C.2 Termination -----------------------------------------------------------
 tol                                   1e-8               # d=1e-8
 max_iter                              500                # d=3000
