@@ -180,7 +180,7 @@ if(GISMO_WITH_IPOPT)
   add_subdirectory(extensions/gsIpopt)
   #set (GISMO_INCLUDE_DIRS ${GISMO_INCLUDE_DIRS} ${IPOPT_INCLUDE_DIR}
   #CACHE INTERNAL "${PROJECT_NAME} include directories")
-  #include_directories(${IPOPT_INCLUDE_DIR})
+  include_directories(${IPOPT_INCLUDE_DIR})
 endif(GISMO_WITH_IPOPT)
 
 if(GISMO_WITH_SUPERLU)
